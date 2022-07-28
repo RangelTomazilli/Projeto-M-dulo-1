@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    background: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    background: url("../images/bg-yellow.png") bottom right no-repeat white;
+    background-attachment: fixed;
+}
+.container {
+    margin-left: 10%;
+    
+}
+#col-bg {
+    height: 100%;
+    width: 60px;
+    background-color: #68519d;
+    border-right: 10px solid #d7cae5;
+    position: fixed;
+}
+#img-logo{
+    width: 216px;
+    height: 64px;
+    display: inline-block;
+    margin-top: 5em;
+    margin-left:25px;
+    margin-bottom: 20px;
+}
+#titulo{
+    margin-top: 2em;
+    font-size: 20px;
+    font-weight: 800;
+    color: #68519d;
+    margin-left:25px;
+    margin-bottom: 10px;
+}
+#title-icon{
+    margin-right: 5px;
+}
+#btn-modal{
+    margin-top: 1em;
+    margin-left:25px;
+    margin-bottom: 50px;
+    background: #68519d00;
+    border-color: #68519d;
+    border-radius: 20px;
+    border-width: 1px;
+    color: #68519d;
+    padding: 6px 30px 6px 30px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+#btn-modal:hover{
+    background-color: #68519d;
+    color: white;
+}
+.boxMenu{
+    font-size: 15px;
+    font-weight: 700;
+    color: #2C2661;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+tbody > tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+table th, td {
+    padding: 5px 65px 5px 25px;
+}
+table td {
+    font-size: 15px;
+    font-weight: 400;
+    color: #2C2661;
+    word-break: break-word
+}
+
+.del-button:hover {
+    cursor: pointer;
+    mask-image: url("/assets/images/delete-icon-hover.png");
+}
+.edit-button {
+    cursor: pointer;
+    
+}
+#titulo-tabela{
+    color: #2C2661;
+}
+.tarefa{
+    width: 100%;
+    height: 100%;
+    overflow: 100%;
+    padding: 5%;
+    top: 0;
+    left: 0;
+    background-color: #00000027;
+    position: fixed;
+    display: none;
+}
+#modal-int{
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+#modal-int p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #68519D;
+}
+#modal-int input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #68519D;
+    border-radius: 10px;
+}
+#data , #status{
+    width: 220px !important;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    color: #2C2661;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #68519D;
+}
+#modal-int label {
+    width: 57px;
+    height: 21px;
+    left: 444px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #68519D;
+}
+#modal-int button {
+    background: #ffffff;
+    border: 1px solid #68519D;
+    border-radius: 20px;
+    width: 100%;
+    height: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #694FA0;
+}
+#save:hover {
+    background-color: #68519d;
+    color: white;
+}
+#back{
+    color: #828282;
+}
+#back:hover {
+    color: #272727;
+    cursor: pointer;
+}
+#alerta {
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+}
+#alerta1{
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+}
+#alerta2{
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+}
+.green {
+    color: green;
+}
+.orange {
+    color: orange;
+}
+.red {
+    color: red;
+}
+.obrig {
+    font-size: 15px;
+    font-weight: 400;
+    color: red;
+}
+@media screen and (max-width: 416px) {
+    table {
+        width: ;
+    }
+    #modal-int{
+        width: 75%;
+
+    }
+    #col-bg {
+        width: 20px;
+        border-right: 5px solid #d7cae5;
+    }
+}
